@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Unified dashboard for NET, GSI and GATE geoscience previous-year questions.">
+<title>Geoscience PYQ dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="dashboard.js" defer></script>
+
+<link rel="stylesheet" href="image-loader.css">
+<script src="image-loader.js" defer></script>
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="index.html"><span>PYQ</span> Geoscience</a>
+  <button class="theme-toggle" type="button" aria-label="Switch colour theme">
+    <span aria-hidden="true">◐</span> Theme
+  </button>
+</header>
+<main>
+  <section class="hero">
+    <p class="eyebrow">One workspace · three examinations</p>
+    <h1>Your English PYQ library.</h1>
+    <p class="lede">Explore topic-classified NET Earth Sciences, UPSC GSI and GATE
+      Geology &amp; Geophysics questions from a single, locally generated dashboard.</p>
+    <p><a class="english-library-link" href="english--index.html">Read the English digitized papers &rarr;</a></p>
+    <div class="hero-stats" aria-label="Collection overview">
+      <div><strong>6,611</strong><span>questions</span></div>
+      <div><strong>2012–2026</strong><span>year range</span></div>
+      <div><strong>90.2%</strong><span>topic classified</span></div>
+      <div><strong>3</strong><span>exam collections</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="collections-title">
+    <div class="section-head"><div><p class="eyebrow">Collections</p>
+      <h2 id="collections-title">Choose an examination</h2></div>
+      <p>Each bank includes question-level filters and deeper trend analysis.</p></div>
+    <div class="exam-grid">
+    <article class="exam-card net">
+      <div class="card-head"><span class="exam-code">NET</span>
+        <span class="coverage">85.6% classified</span></div>
+      <h3>CSIR-UGC NET Earth Sciences</h3><p>Parts A–C across archived CSIR and NTA sittings, with published answers where recoverable.</p>
+      <dl class="mini-stats">
+        <div><dt>Questions</dt><dd>2,915</dd></div>
+        <div><dt>Sittings</dt><dd>20</dd></div>
+        <div><dt>Years</dt><dd>2012–2025</dd></div>
+        <div><dt>Topics</dt><dd>20</dd></div>
+      </dl>
+      <div class="meter" role="img" aria-label="85.6 percent topic classified">
+        <i style="width:85.63%"></i></div>
+      <nav class="card-actions" aria-label="NET resources"><a href="NET--index.html">Question bank</a><a href="NET--analysis--index.html">Trend analysis</a><a href="NET--analysis--forecast-2027.html">2027 forecast</a></nav>
+    </article>
+    <article class="exam-card gsi">
+      <div class="card-head"><span class="exam-code">GSI</span>
+        <span class="coverage">94.3% classified</span></div>
+      <h3>UPSC Combined Geo-Scientist</h3><p>Prelims and mains geology questions, normalized separately for meaningful paper-to-paper analysis.</p>
+      <dl class="mini-stats">
+        <div><dt>Questions</dt><dd>2,851</dd></div>
+        <div><dt>Papers</dt><dd>52</dd></div>
+        <div><dt>Years</dt><dd>2014–2026</dd></div>
+        <div><dt>Topics</dt><dd>28</dd></div>
+      </dl>
+      <div class="meter" role="img" aria-label="94.3 percent topic classified">
+        <i style="width:94.32%"></i></div>
+      <nav class="card-actions" aria-label="GSI resources"><a href="GSI--index.html">Question bank</a><a href="GSI--analysis--index.html">Trend analysis</a><a href="GSI--analysis--forecast-2027.html">2027 forecast</a></nav>
+    </article>
+    <article class="exam-card gate">
+      <div class="card-head"><span class="exam-code">GATE</span>
+        <span class="coverage">92.4% classified</span></div>
+      <h3>GATE Geology &amp; Geophysics</h3><p>Topic-classified GG papers with official keys and a separate archive for the former geophysics stream.</p>
+      <dl class="mini-stats">
+        <div><dt>Questions</dt><dd>845</dd></div>
+        <div><dt>Papers</dt><dd>13</dd></div>
+        <div><dt>Years</dt><dd>2014–2026</dd></div>
+        <div><dt>Topics</dt><dd>23</dd></div>
+      </dl>
+      <div class="meter" role="img" aria-label="92.4 percent topic classified">
+        <i style="width:92.43%"></i></div>
+      <nav class="card-actions" aria-label="GATE resources"><a href="GATE--index.html">Question bank</a><a href="GATE--analysis--index.html">Trend analysis</a><a href="GATE--analysis--forecast-2027.html">2027 forecast</a><a href="GATE--analysis--geophysics.html">Geophysics archive</a></nav>
+    </article></div>
+  </section>
+
+  <section class="comparison" aria-labelledby="comparison-title">
+    <div class="section-head"><div><p class="eyebrow">At a glance</p>
+      <h2 id="comparison-title">Coverage comparison</h2></div>
+      <p>Counts come directly from each collection’s latest generated artifact.</p></div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Exam</th><th>Questions</th><th>Paper units</th><th>Years</th>
+        <th>Topics</th><th>Classified</th><th>Unclassified</th></tr></thead>
+      <tbody><tr><th scope="row">NET</th><td>2,915</td><td>20</td><td>2012–2025</td><td>20</td><td>85.6%</td><td>419</td></tr><tr><th scope="row">GSI</th><td>2,851</td><td>52</td><td>2014–2026</td><td>28</td><td>94.3%</td><td>162</td></tr><tr><th scope="row">GATE</th><td>845</td><td>13</td><td>2014–2026</td><td>23</td><td>92.4%</td><td>64</td></tr></tbody>
+    </table></div>
+  </section>
+
+  <section class="topics" aria-labelledby="topics-title">
+    <div class="section-head"><div><p class="eyebrow">Topic signal</p>
+      <h2 id="topics-title">Most frequent classified topics</h2></div>
+      <p>Raw question frequency; use each exam’s analysis for normalized marks.</p></div>
+    <div class="tabs" role="tablist" aria-label="Select examination"><button role="tab" id="tab-net" aria-controls="panel-net" aria-selected="true">NET</button><button role="tab" id="tab-gsi" aria-controls="panel-gsi" aria-selected="false">GSI</button><button role="tab" id="tab-gate" aria-controls="panel-gate" aria-selected="false">GATE</button></div>
+    <div class="topic-panels"><section role="tabpanel" id="panel-net" aria-labelledby="tab-net"><h3>CSIR-UGC NET Earth Sciences <span>top classified topics by question count</span></h3><ol class="topic-list"><li><span class="rank">1</span><span class="topic-name">Atmospheric Sciences and Climate</span><span class="bar" aria-hidden="true"><i style="width:100.00%"></i></span><strong>482</strong></li><li><span class="rank">2</span><span class="topic-name">Ocean Sciences</span><span class="bar" aria-hidden="true"><i style="width:77.59%"></i></span><strong>374</strong></li><li><span class="rank">3</span><span class="topic-name">Interior of the Earth, Seismology and Geodynamics</span><span class="bar" aria-hidden="true"><i style="width:45.85%"></i></span><strong>221</strong></li><li><span class="rank">4</span><span class="topic-name">Geomorphology and Quaternary Geology</span><span class="bar" aria-hidden="true"><i style="width:41.91%"></i></span><strong>202</strong></li><li><span class="rank">5</span><span class="topic-name">Applied Geophysics</span><span class="bar" aria-hidden="true"><i style="width:32.99%"></i></span><strong>159</strong></li><li><span class="rank">6</span><span class="topic-name">Aptitude: Quantitative</span><span class="bar" aria-hidden="true"><i style="width:31.33%"></i></span><strong>151</strong></li><li><span class="rank">7</span><span class="topic-name">Mineralogy and Crystallography</span><span class="bar" aria-hidden="true"><i style="width:23.03%"></i></span><strong>111</strong></li><li><span class="rank">8</span><span class="topic-name">Earth and the Solar System</span><span class="bar" aria-hidden="true"><i style="width:21.99%"></i></span><strong>106</strong></li></ol></section><section role="tabpanel" id="panel-gsi" aria-labelledby="tab-gsi" hidden><h3>UPSC Combined Geo-Scientist <span>top classified topics by question count</span></h3><ol class="topic-list"><li><span class="rank">1</span><span class="topic-name">Mineralogy and Crystallography</span><span class="bar" aria-hidden="true"><i style="width:100.00%"></i></span><strong>203</strong></li><li><span class="rank">2</span><span class="topic-name">Structural Geology</span><span class="bar" aria-hidden="true"><i style="width:93.60%"></i></span><strong>190</strong></li><li><span class="rank">3</span><span class="topic-name">Sedimentology</span><span class="bar" aria-hidden="true"><i style="width:89.16%"></i></span><strong>181</strong></li><li><span class="rank">4</span><span class="topic-name">Igneous Petrology</span><span class="bar" aria-hidden="true"><i style="width:81.28%"></i></span><strong>165</strong></li><li><span class="rank">5</span><span class="topic-name">Stratigraphy</span><span class="bar" aria-hidden="true"><i style="width:78.33%"></i></span><strong>159</strong></li><li><span class="rank">6</span><span class="topic-name">Economic Geology and Ore Deposits</span><span class="bar" aria-hidden="true"><i style="width:75.37%"></i></span><strong>153</strong></li><li><span class="rank">7</span><span class="topic-name">Palaeontology</span><span class="bar" aria-hidden="true"><i style="width:71.92%"></i></span><strong>146</strong></li><li><span class="rank">8</span><span class="topic-name">GS: Geography</span><span class="bar" aria-hidden="true"><i style="width:59.11%"></i></span><strong>120</strong></li></ol></section><section role="tabpanel" id="panel-gate" aria-labelledby="tab-gate" hidden><h3>GATE Geology &amp; Geophysics <span>top classified topics by question count</span></h3><ol class="topic-list"><li><span class="rank">1</span><span class="topic-name">Mineralogy and Crystallography</span><span class="bar" aria-hidden="true"><i style="width:100.00%"></i></span><strong>93</strong></li><li><span class="rank">2</span><span class="topic-name">Sedimentology and Stratigraphy</span><span class="bar" aria-hidden="true"><i style="width:84.95%"></i></span><strong>79</strong></li><li><span class="rank">3</span><span class="topic-name">Structural Geology</span><span class="bar" aria-hidden="true"><i style="width:78.49%"></i></span><strong>73</strong></li><li><span class="rank">4</span><span class="topic-name">Quantitative Aptitude</span><span class="bar" aria-hidden="true"><i style="width:58.06%"></i></span><strong>54</strong></li><li><span class="rank">5</span><span class="topic-name">Earth and Planetary Science</span><span class="bar" aria-hidden="true"><i style="width:53.76%"></i></span><strong>50</strong></li><li><span class="rank">6</span><span class="topic-name">Verbal and Analytical Aptitude</span><span class="bar" aria-hidden="true"><i style="width:46.24%"></i></span><strong>43</strong></li><li><span class="rank">7</span><span class="topic-name">Hydrogeology and Engineering Geology</span><span class="bar" aria-hidden="true"><i style="width:45.16%"></i></span><strong>42</strong></li><li><span class="rank">8</span><span class="topic-name">Geochemistry and Isotope Geology</span><span class="bar" aria-hidden="true"><i style="width:45.16%"></i></span><strong>42</strong></li></ol></section></div>
+  </section>
+
+  <aside class="method">
+    <strong>How this page stays current</strong>
+    <p><code>python _tools/build_dashboard.py</code> reads NET and GSI classified
+      JSON plus GATE’s generated question table. It validates required fields before
+      replacing this page; no network request or external package is used.</p>
+  </aside>
+</main>
+<footer><span>Geoscience previous-year question workspace</span>
+  <span>NET · GSI · GATE</span></footer>
+</body>
+</html>
